@@ -1,0 +1,1 @@
+import{k as a}from"./index-rD5D3wIe.js";import{u as r}from"./theme-CwYL3eQV.js";import{u as i}from"./useTranslation-CdVDZguR.js";import{T as m}from"./index-WqkPP-4X.js";function u(t){const{t:o}=i(),s=r(),{Text:e}=m;return a.jsx(e,{className:t.className,style:{color:s.textActiveNormal},children:o(t.title)})}export{u as T};

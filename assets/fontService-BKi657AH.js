@@ -1,1 +1,0 @@
-import{i as o,fb as t}from"./index-CJvg638n.js";const a=s=>{const r={};return s.forEach(e=>{r[e.os]||(r[e.os]={required:[],random:[]}),e.required?r[e.os].required.push(e):r[e.os].random.push(e)}),r},n=async()=>{const{data:s}=await o.get(t);return a(s.content)};export{n as g};

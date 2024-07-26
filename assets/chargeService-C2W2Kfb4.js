@@ -1,1 +1,0 @@
-import{i as a,dC as C,dD as s}from"./index-CJvg638n.js";const d="F34sfR26ka7",m=async n=>{if(n!=null&&n.email)try{const o=n==null?void 0:n.email,t=await a.get(C),c=s(t.data.content,btoa(o)+d);return t.data.content=c,t}catch(o){console.log({err:o})}};export{m as g};

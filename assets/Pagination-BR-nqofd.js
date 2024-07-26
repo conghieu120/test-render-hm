@@ -1,0 +1,1 @@
+import{r as e,k as i}from"./index-rD5D3wIe.js";import{P as s}from"./Pagination-Du9klKsI.js";function g(n){const{total:t=0,current:o=1,pageSize:a=10,onChange:r}=n;return e.useEffect(()=>{r&&t&&o>1&&o*a-t>=a&&(console.log("callback"),r(o-1,a))},[t]),i.jsx(s,{...n})}export{g as P};
