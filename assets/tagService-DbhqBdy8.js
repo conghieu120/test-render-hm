@@ -1,0 +1,1 @@
+import{i as s,cu as t,cv as o}from"./index-CJvg638n.js";const c=async(a=!1)=>{const{data:e}=await s.get(t,{params:{is_local:a}});return e.content},i=a=>s.post(o,a,{params:{is_local:a.profile_uuid.includes("local-")}});export{c as g,i as u};

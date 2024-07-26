@@ -1,0 +1,1 @@
+function o(p,a){const r=p.split("."),n=a.split(".");for(let t=0;t<Math.max(r.length,n.length);t++){const s=parseInt(r[t])||0,e=parseInt(n[t])||0;if(s<e)return-1;if(s>e)return 1}return 0}export{o as c};

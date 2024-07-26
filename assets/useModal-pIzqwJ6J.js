@@ -1,0 +1,1 @@
+import{r as e}from"./index-CJvg638n.js";const S=()=>{const[l,d]=e.useState(!1),[a,t]=e.useState(""),[c,o]=e.useState({}),[n,r]=e.useState(""),u=e.useCallback((s,m,M={},p)=>{d(s),s?(t(m),o(M),r(p??"")):(t(""),o({}))},[a]);return{openModal:l,modalName:a,modalData:c,toggleModal:u,modalKey:n}};export{S as u};

@@ -1,0 +1,1 @@
+.swal2-popup{font-family:sans-serif}div:where(.swal2-container) div:where(.swal2-popup){background:var(--background-sweetAlert)!important}#swal2-title,#swal2-html-container{color:var(--color-sweetAlert)!important}
